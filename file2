@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <h1 style="text-align: center;">restaurant</h1>
+    <h3>Menu</h3>
+    <ul>
+        <li>tea</li>
+        <li>orange</li>
+        <ul style="list-style-type: lower-roman;">
+            <li>rice</li>
+            <li>Potatos</li>
+            <li>rice</li>
+            <li>Potatos</li>
+
+        </ul>
+        <li>Lemon</li>
+        <li>coffe</li>
+
+    </ul>
+    <p> our <b style="font-size: 20px;">restaurant</b> is Wonderful ,location in <i>cairo</i>
+        our <b style="font-size: 20px;">restaurant</b> is Wonderful ,location in <i>cairo</i>
+        our <b style="font-size: 20px;">restaurant</b> is Wonderful ,location in <i>cairo</i>
+        our <b style="font-size: 20px;">restaurant</b> is Wonderful ,location in <i>cairo</i></p>
+        <p style=color:blue> our <b style="font-size: 20px;">restaurant</b> is Wonderful ,location in <i>cairo</i>
+            our <b style="font-size: 20px;">restaurant</b> is Wonderful ,location in <i>cairo</i>
+            our <b style="font-size: 20px;">restaurant</b> is Wonderful ,location in <i>cairo</i>
+            our <b style="font-size: 20px;">restaurant</b> is Wonderful ,location in <i>cairo</i></p>
+
+    <img src="1.jpg" width="70%">
+    <br>
+    <!-- <a href="" id="scroll-top">top</a> -->
+    <div id="scroll-top" style="cursor: pointer;">top</div>
+    
+    <a href="task2.html">next</a>
+    <script src="jquery-1.12.4.min.js"></script>
+    <script>
+        var scrollbutton = $('#scroll-top');
+        scrollbutton.click(function(){
+        $('html,body').animate({scrollTop:0},600);
+      })
+
+        
+    </script>
+</body>
+
+</html>
